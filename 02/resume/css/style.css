@@ -46,9 +46,27 @@ img {
 	border-style: solid;
 	border-color: #222222;
 	padding: 7px;
+	margin-left: 30px;
+}
+
+img.resumeImage {
 	max-width: 140px;
 	float:right;
-	margin-left: 30px;
+}
+
+.portfolioContainer {
+	overflow: auto;
+}
+
+.portfolioContainer li h4 {
+	display: inline;
+}
+.portfolioContainer li h4 span {
+	font-weight: normal;
+}
+.portfolioContainer ul li img {
+	max-width: 500px;
+    margin: 0 0 30px;
 }
 
 
