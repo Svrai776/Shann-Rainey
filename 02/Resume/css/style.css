@@ -11,45 +11,49 @@ body {
 
 	padding: 50px;
 	font-family: Arial;
-	border-margin: 30px;
-
+	margin: 15px 0;
 }
 
-a
-{font-weight: bold;
-font-color: #05080C;
-text-align: center;}
 
-nav{
+a {
+	font-weight: bold;
+	font-color: #05080C;
+	text-align: center;
+	color: black;
+}
+
+nav {
 	width:200px
 	margin:auto;
 	text-align: center;
 }
 
-.active{
+.active {
 	text-decoration: none;
 	font-style: italic;
-
 }
 
-h1{
+h1 {
 	text-align: center;
 	text-transform: uppercase;
 
 }
 
-h2{ text-transform: uppercase 
-	}
+h3 { 
+	text-transform: uppercase 
+}
 
-img{
+img {
 	border-width: 1px;
 	border-style: solid;
-	border-color: #222222
-	padding: 5px;
-	max-width: 230px;
+	border-color: #222222;
+	padding: 7px;
+	max-width: 140px;
 	float:right;
 	margin-left: 30px;
+}
 
+.mainContentContainer {
 
 }
 
