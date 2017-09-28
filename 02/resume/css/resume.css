@@ -1,25 +1,23 @@
 body {
-	background-color: #F6F6F6;
-	border-top-width: 5px;
-	border-top-style: solid;
-	border-top-color: #222222;
-
     background-color: #F6F6F6;
 	border-bottom-width: 5px;
 	border-bottom-style: solid;
 	border-bottom-color: #222222;
-
 	padding: 50px;
 	font-family: Arial;
 	margin: 15px 0;
 }
-
+a {
+	color: #05080C;
+}
+h1, h2, h3, h4, h5, .boldText {
+	color: #030609;
+}
 
 a {
 	font-weight: bold;
 	font-color: #05080C;
 	text-align: center;
-	color: black;
 }
 
 nav {
@@ -52,10 +50,5 @@ img {
 	float:right;
 	margin-left: 30px;
 }
-
-.mainContentContainer {
-
-}
-
 
 
