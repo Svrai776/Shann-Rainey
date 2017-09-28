@@ -1,72 +1,91 @@
 body {
     background-color: #F6F6F6;
-	border-bottom-width: 5px;
-	border-bottom-style: solid;
-	border-bottom-color: #222222;
-	padding: 50px;
-	font-family: Arial;
-	margin: 15px 0;
-}
-a {
-	color: #05080C;
-}
-h1, h2, h3, h4, h5, .boldText {
-	color: #030609;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #222222;
+    padding: 50px;
+    font-family: Arial;
+    margin: 15px 0;
 }
 
 a {
-	font-weight: bold;
-	font-color: #05080C;
-	text-align: center;
+    color: #05080C;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.boldText {
+    color: #030609;
+}
+
+a {
+    font-weight: bold;
+    font-color: #05080C;
+    text-align: center;
 }
 
 nav {
-	width:200px
-	margin:auto;
-	text-align: center;
+    width: 200px margin:auto;
+    text-align: center;
 }
 
 .active {
-	text-decoration: none;
-	font-style: italic;
+    text-decoration: none;
+    font-style: italic;
 }
 
 h1 {
-	text-align: center;
-	text-transform: uppercase;
-
+    text-align: center;
+    text-transform: uppercase;
 }
 
-h3 { 
-	text-transform: uppercase 
+h3 {
+    text-transform: uppercase
 }
 
 img {
-	border-width: 1px;
-	border-style: solid;
-	border-color: #222222;
-	padding: 7px;
-	margin-left: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #222222;
+    padding: 7px;
+    margin-left: 30px;
 }
 
 img.resumeImage {
-	max-width: 140px;
-	float:right;
+    max-width: 140px;
+    float: right;
 }
 
 .portfolioContainer {
-	overflow: auto;
+    overflow: auto;
 }
 
 .portfolioContainer li h4 {
-	display: inline;
+    display: inline;
 }
-.portfolioContainer li h4 span {
-	font-weight: normal;
+
+.portfolioContainer li h4 span,
+.educationContainer li h4 span {
+    font-weight: normal;
 }
+
 .portfolioContainer ul li img {
-	max-width: 500px;
+    max-width: 500px;
     margin: 0 0 30px;
 }
 
-
+.educationContainer li h4 {
+    font-style: italic;
+}
+.educationContainer li h4 span {
+    font-style: normal;
+}
+.educationContainer {
+	margin-bottom: 35px;
+}
+.socialMediaNavContainer {
+	margin-top: 25px;
+}
