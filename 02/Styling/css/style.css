@@ -1,0 +1,22 @@
+body
+
+h1{
+	background-color: red;
+	padding:20px;
+	border: 3px solid black;
+}
+
+p{
+	background-color: blue;
+	color: white;
+	padding: 20px;
+	border: 3px solid black;
+}
+
+
+code{
+
+	background-color: white;
+	color:black;
+	border:1px solid black;
+}
