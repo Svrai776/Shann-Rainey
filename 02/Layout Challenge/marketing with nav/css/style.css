@@ -1,0 +1,33 @@
+.container{
+	padding: 10px;}
+
+.row{
+	display: flex;
+	height: 100px;
+}
+
+.bigRow{
+	height:200px;
+}
+
+.column {
+	background: lightgray;
+    margin: 10px 0;
+    border: 1px solid black;
+    flex: 1;
+}
+
+.columnlogo{
+	background: lightgray;
+    margin-right: 88px;
+    border: 1px solid black;
+    flex: 1;
+
+}
+nav.column{
+	height: 50px;
+	margin-top: 23px;
+}
+.column.marginRightNav{
+	margin-right: 10px;
+}

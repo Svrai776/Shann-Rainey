@@ -1,0 +1,19 @@
+.container {
+	padding: 10px;
+}
+.row {
+	display: flex;
+    height: 100px;
+}
+.bigRow {
+	height: 180px;
+}
+.column {
+	background: lightgray;
+    margin: 10px 0;
+    border: 1px solid black;
+    flex: 1;
+}
+.columnWithMarginRight {
+	margin-right: 10px;
+}

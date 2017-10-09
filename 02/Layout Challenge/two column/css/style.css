@@ -1,0 +1,37 @@
+.Row1,
+.Row2,
+.Row3,
+.Row4{
+	background-color: blue;
+	border-style: solid;
+	padding: 60px;
+	margin: 10px;
+
+
+}
+
+.Row2,
+.Row3{
+
+	display:inline-block;
+
+}
+
+
+.Row2{
+	float:right;
+	padding: 150px;
+	height: 200px;
+
+
+}
+
+.Row3{
+	width: 500px;
+	padding: 100px;
+	height: 300px;
+
+
+}
+	
+

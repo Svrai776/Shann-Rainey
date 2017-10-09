@@ -1,0 +1,22 @@
+
+
+.Row1,
+.Row3
+{
+background-color: grey;
+border: solid;
+margin: 10px;
+height: 150px;
+
+
+}
+
+.Split{
+background-color: grey;
+border: solid;
+margin: 10px;
+height: 150px;
+padding-left: 10px;
+Dsiplay: inline;
+
+}

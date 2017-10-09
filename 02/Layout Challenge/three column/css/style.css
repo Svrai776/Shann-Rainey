@@ -1,0 +1,40 @@
+.colm1,
+.colm5{
+	background-color: grey;
+	padding: 40px;
+	margin:10px;
+	border-style: solid;
+
+}
+
+.container{
+	display: flex;
+
+	}
+
+.colm2,
+.colm3,
+.colm4{
+	padding: 50px;
+	margin: 10px;
+	border-style: solid;
+	background-color: grey;
+
+}
+
+.colm2{
+	float: left; width: 33%;
+	padding-right: 10px;
+
+}
+
+.colm3{
+	float: right; width: 33%;
+	padding: 200px;
+
+}
+
+.colm4{
+	display: inline-block; width: 33%;
+
+}
