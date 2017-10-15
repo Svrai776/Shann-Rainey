@@ -22,4 +22,4 @@ Project URL: https://github.com/Svrai776/Shann-Rainey/tree/1ac707791d8719610f6f9
 | Style your text with the Google Fonts provided by your style guide                                                            |        X                        |                        |                         |
 | Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes |                                |                       |   X                       |
 | Indent nested elements to increase your code's readability                                                                    |                                |                       |                X          |
-| TOTAL: __10__/12                                                                                                              |                                |                        |                          |
+| TOTAL: __7__/12                                                                                                              |                                |                        |                          |
