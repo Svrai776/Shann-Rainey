@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,800);
 body {
-	font-family: 'open Sans';
+	font-family: 'open Sans', sans serif;
 	color: white;
 }
 .container {
@@ -90,6 +90,7 @@ h2 {
 	font-style: italic;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	font-family: "Open Sans", sans serif;
 }
 
 .paragraph{
