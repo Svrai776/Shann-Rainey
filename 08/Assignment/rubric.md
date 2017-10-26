@@ -20,4 +20,4 @@ Project URL: https://github.com/Svrai776/Shann-Rainey/tree/master/08/Assignment/
 | Applied event handler to DOM elements|      |   X   |      | 
 | **BONUS**: Submitted working code  |  X    |      |      |
 | **BONUS**: Prevent a form submission with the ```event.preventDefault()``` function  |   X   |      |      |
-| TOTAL: ___3___/6   |      |      |      |
+| TOTAL: ___4___/6   |      |      |      |
