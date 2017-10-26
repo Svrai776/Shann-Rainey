@@ -15,9 +15,9 @@ Project URL: https://github.com/Svrai776/Shann-Rainey/tree/master/08/Assignment/
 |                                                                                                                                                                                                                     |                                |                        |                          |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|------------------------|--------------------------|
 | Technical Requirements                                                                                                                                                                                              | Does Not Meet Expectations (0) | Meets Expectations (1) | Exceeds Expectations (2) |
-| Included the the external JS Script Tag |   X   |      |      |
-| Select the appropriate DOM elements with CSS selectors |   X   |      |      |
-| Applied event handler to DOM elements|  X    |      |      | 
+| Included the the external JS Script Tag |     |      |  X    |
+| Select the appropriate DOM elements with CSS selectors |      |   X   |      |
+| Applied event handler to DOM elements|      |   X   |      | 
 | **BONUS**: Submitted working code  |  X    |      |      |
 | **BONUS**: Prevent a form submission with the ```event.preventDefault()``` function  |   X   |      |      |
-| TOTAL: ___0___/6   |      |      |      |
+| TOTAL: ___3___/6   |      |      |      |
