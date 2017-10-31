@@ -8,7 +8,7 @@ $(document).ready(function() {
 		var option = $('<option>' + city + '</option>');
 		option.val(city);
 		cityField.append(option);
-	}
+	} 
 
 	$("form").submit(function (event) {
 		var cityFieldValue = cityField.val();
