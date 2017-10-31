@@ -1,46 +1,47 @@
-//when user submits the form : 
-//get the input field value
-//var city-type= input value
-//if city==="new york" || citytype===NYC || citytype="New York City"
-//then
-//if any true change the background
-//selector.style.backgroundcolor=value
+$(document).ready(function() {
 
-//stop the form from submitting
+	$("form").submit(function (event) {
 
-var colorField = document.getElementById('city-type');
+		var inputField = $("input").val();
+		
+		if(inputField === "New York" ||
+		 inputField === "New York City"|| 
+		 inputField  ==="NYC") {
 
-document.getElementById('actionButton').onclick = function () {
+			$("body").css("background", "url('images/nyc.jpg')");
+			$("body").addClass("nyc");
 
-document.body.style.background = img.value;}
+		} 
+		else if (inputField === "San Fransicso" ||
+		 inputField === "Bay Area"|| 
+		 inputField  ==="SF") {
 
-	if{
-		citytype("New York") || citytype("NYC") || citytype("New York City"),
-	}
-	then{
+			$("body").css("background", "url('images/sf.jpg')");
+			$("body").addClass("sf");
 
-		changeBackground image(url)
+		} 
+		else if (inputField === "Los Angeles" ||
+		 inputField === "LA"|| 
+		 inputField  ==="LAX") {
 
-	}
+			$("body").css("background", "url('images/la.jpg')");
+			$("body").addClass("la");
+		} 
+		else if (inputField === "Austin" ||
+		 inputField === "ATX") {
 
-	.preventdefault
-if{
-		citytype("LAX") || citytype("NYC") || citytype("New York City"),
-	}
-	then{
+			$("body").css("background", "url('images/austin.jpg')");
+			$("body").addClass("austin");
 
-		changeBackground image(url)
+		} 
+		else if (inputField === "Syndey"|| 
+		 inputField  ==="SYD") {
 
-	}
+			$("body").css("background", "url('images/syndey.jpg')");
+			$("body").addClass("syndey");
+		}
 
-	}
+		event.preventDefault();
+	});
 
-		.preventdefault
-if{
-		citytype("") || citytype("NYC") || citytype("New York City"),
-	}
-	then{
-
-		changeBackground image(url)
-
-	}
+})
