@@ -1,0 +1,109 @@
+body {
+	padding: 10px;
+}
+
+.container {
+	box-shadow: 1px 2px 16px black;
+    border-radius: 9px 9px 0 0;
+    overflow: hidden;
+}
+
+.form-container {
+	padding: 0px 40px 40px;
+}
+
+h2{
+	height: 49px;
+    background: linear-gradient(white, grey);
+    text-align: center;
+    padding-top: 5px;
+    margin: 0px;
+    font-weight: 100;
+}
+label {
+	display: flex;
+}
+label span {
+	width: 140px;
+	display: inline-block;
+	padding-top: 5px;
+	height: 0px;
+}
+label input {
+	background: #ffffe0;
+}
+
+.inputFields {
+	display: flex;
+	flex-direction: column;
+	margin: 5px 0;
+
+}
+
+.addressContainer{
+	padding-top: 5px;
+}
+
+.fullLengthFields {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.fullLengthFields input {
+	margin: 0 2px;
+	
+
+}
+
+form input {
+	padding: 4px;
+	border-radius: 5px;
+	border: solid 1px;
+	border-color: lightgrey;
+	
+
+}
+
+form input[name=prim1],
+form input[name=prim2],
+form input[name=prim3] {
+	padding-left: 26px;
+
+
+}
+
+	
+
+form input[name=state] {
+	width: 89px;
+	
+}
+
+form input[name=postalCode]{
+	padding: 5px;
+	width: 77px;	
+}
+
+
+form input[name=streetAddress]{
+	width: 100%;
+	margin-bottom: 2px;
+
+}
+
+.dropDown1{
+	display: flex;
+}
+
+ select{
+	width: 140px;
+	display: inline-block;
+	padding-top: 5px;
+	height: 0px;
+
+}
+
+select{
+	padding-top: 3px;
+}
