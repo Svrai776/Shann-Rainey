@@ -30,3 +30,5 @@ Project URL: https://github.com/Svrai776/Shann-Rainey/tree/2e45469bca0d723caa146
 | **Bonus:** Use class to switch out the background images|  X  |    |    |
 | **Bonus:** Wrote psuedo code in the js file|    |    |  X  |
 | TOTAL: ___10___ /24                                                                                                              |                                |                        |                          |
+
+**Resubmission =** 70
