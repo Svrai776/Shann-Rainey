@@ -1,0 +1,65 @@
+.formContainer{
+	background-color: lightgrey;
+	margin: 5px 20px;
+	padding: 10px 30px;
+}
+h3 {
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+label{
+	font-weight: bold;
+	color: black;
+	font-family: 'Arial';
+	font-size: 16px;
+	padding-bottom: 30px;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-family: 'Arial';
+}
+
+.generalInfo{
+	margin-top: 10px;
+	font-weight: 600;
+}
+
+
+input{
+	font-size: 25px;
+	color: rgba(0, 0, 0, 0.5);
+	background-color: lightgrey;
+	border: none;
+	
+}
+
+.requiredFields{
+	padding-top: 13px;
+    margin-bottom: 17px
+}
+
+h2, .projectInfo{
+	padding-top: 15px;
+	font-weight: 600;
+	padding-bottom: 15px;
+
+}
+
+#bigTextBox{
+	background-color: white;
+	border: solid, 1px;
+	width: 42%;
+	height: 135px;
+	
+	
+
+}
