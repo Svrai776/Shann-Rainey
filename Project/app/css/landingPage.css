@@ -1,0 +1,27 @@
+h3 {
+	margin: 0px;
+}
+
+h3 .small-text {
+    position: relative;
+    top: -10px;
+    max-width: 255px;
+}
+
+.formField {
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.formField select, .formField button {
+	width: 100px;
+	margin: 0 0 0 20px;
+}
+
+.submitContainer {
+	margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}

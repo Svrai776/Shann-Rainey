@@ -1,0 +1,11 @@
+h3, .solutionsList {
+	max-width: 450px;
+}
+
+.solutionsList div {
+	margin: 10px 0;
+}
+
+.solutionsList .highlight span {
+	text-decoration: underline;
+}

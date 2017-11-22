@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Courgette|Great+Vibes|Passion+One|Permanent+Marker|Poiret+One');
+* {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url(../images/backgroundpic.jpg);
+    background-repeat: no-repeat;
+    /* background-position: top center; */
+    background-size: 600px;
+}
+#container {
+width: 940px;
+margin: 0 auto;
+}
+
+header{
+	background-color: grey;
+    background: rgba(54, 25, 25, .5);
+    height: 50px;
+    color: white;
+    font-family: 'Cursive';
+}
+
+
+
+.main-content {
+    margin: 155px 0px 10px 32px;
+    width: 50%;
+    min-height: 200px;
+    height: 300px;
+}
+
+a{
+	text-align: right;
+}
+
+header{
+    background-color: grey;
+    background: rgba(54, 25, 25, .5);
+    font-family: 'Poiret One', cursive;
+    font-size: xx-large;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.container {
+    height: 100%;
+}
+
+img {
+    height: 500px;
+    float: left;
+    position: absolute;
+    
+}
+
+.photoOne {
+
+    background-color: grey;
+    height: 189px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+#info{
+background: none;
+}

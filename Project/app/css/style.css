@@ -1,7 +1,25 @@
+body{
+	background: black;
+
+}
+
+img{
+	color: white;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-image: 
+    background-size: 100% 100%;
+    margin-top: 100px;
+}​
+
+
 .container {
 	display: flex;
 }
-.main-content, .secondary-content {
+.main-content,  {
 	background: whitesmoke;
     width: 100%;
     padding: 20px;
@@ -9,7 +27,7 @@
     min-height: 200px;
 }
 .secondary-content {
-	display: none;
+
 }
 @media (min-width: 768px) {
 	.secondary-content {
@@ -22,6 +40,7 @@ nav {
 }
 nav ul {
 	list-style-type: none;
+	text-align: right;
 }
 
 nav ul li {
