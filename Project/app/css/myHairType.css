@@ -1,6 +1,9 @@
 .content {
 	min-height: 1000px;
+	padding: 10px 20px;
+    text-align: center;
 }
+
 h3, .solutionsList {
 	max-width: 450px;
 }
@@ -11,4 +14,13 @@ h3, .solutionsList {
 
 .solutionsList .highlight span {
 	text-decoration: underline;
+}
+
+@media screen and (max-device-width: 767px) {
+	h3, .solutionsList {
+		max-width: unset;
+	}
+	.solutionsList div {
+		margin: 40px 0;
+	}
 }
