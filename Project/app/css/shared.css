@@ -14,6 +14,19 @@ padding: 30px;
 font-size: 30px;
 }
 
+button {
+    cursor: pointer;
+}
+
+button.highlight {
+    background: gold;
+    padding: 12px;
+    font-size: 15px;
+    margin: 9px;
+    border: none;
+    border-radius: 7px;
+}
+
 h3{
     text-align: center;
 }
@@ -23,7 +36,7 @@ body {
 }
 
 html {
-	background: black;
+	background: whitesmoke;
 }
 
 header{
@@ -43,8 +56,15 @@ header{
     text-decoration: underline;
 }
 
+header span {
+    cursor: pointer;
+}
+
 .container {
     height: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+    background: white;
 }
 
 img {
@@ -79,7 +99,6 @@ img {
 }
 
 .content {
-	max-width: 960px;
 	min-height: 500px;
     display: flex;
     flex-direction: column;
@@ -87,11 +106,12 @@ img {
     padding: 25px;
 }
 
-.secondary-content {
+.quote {
 	background: black;
 	color: white;
 	text-align: center;
 	padding: 10px;
+    border-top:solid, white;
 }
 
 .content .boxed-content {
@@ -127,4 +147,34 @@ footer {
 
 .social-media a {
 	color: white;
+}
+
+.infoBoxes{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    border-style: solid, whitesmoke;
+    justify-content: space-around;
+}
+.infoBox1,
+.infoBox2,
+.infoBox3{
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    margin: 10px;
+    background-color: grey;
+    height: 300px;
+    width: 315px;
+
+}
+p{
+    margin-top: 10px;
+}
+
+blockquote{
+    margin-top: 47px;
+
 }

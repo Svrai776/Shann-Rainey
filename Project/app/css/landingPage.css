@@ -25,3 +25,45 @@ h3 .small-text {
     display: flex;
     justify-content: flex-end;
 }
+
+.takeThePorosityTest {
+    cursor: pointer;
+}
+
+.infoBoxes p {
+    color: black;
+}
+
+.porosityTest h6 {
+    font-size: 16px;
+    text-decoration: underline;
+    margin: 10px 0 30px;
+}
+.porosityTest ol {
+    background: whitesmoke;
+    padding: 15px 20px;
+}
+.porosityTest ol li {
+    text-align: left;
+    margin: 15px;
+}
+
+.porosityTest {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    border-style: solid, whitesmoke;
+    justify-content: space-around;
+}
+
+.method {
+    border-style: solid;
+    border-color: white;
+    padding: 10px 25px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    width: 315px;
+}

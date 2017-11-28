@@ -17,3 +17,20 @@ $(document).ready(function(){
 	});
 
 });
+
+$(document).ready(function(){
+    $("h2").hover(function(){
+        $(this).css("color", "black");
+        }, function(){
+        $(this).css("color", "white");
+    });
+    $(".takeThePorosityTest").click(function(){
+    	$("html, body").animate({
+        scrollTop: $('.porosityTest').offset().top 
+    }, 200);
+    });
+
+});
+
+
+

@@ -19,3 +19,4 @@ function getHairTypeMapFromUrl() {
 	return map;
 }
 
+
