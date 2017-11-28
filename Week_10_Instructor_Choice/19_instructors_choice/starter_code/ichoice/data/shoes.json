@@ -1,0 +1,38 @@
+{
+  "releases" : [{
+    "image": "img/releases/AA1253-400.jpg",
+    "name": "AIR JORDAN XXXII RUSS",
+    "price": "$185",
+    "date": "NOVEMBER 22ND, 2017"
+  },
+  {
+    "image": "img/releases/555088-710.jpg",
+    "name": "AIR JORDAN 1 RETRO HIGH OG “WHEAT”",
+    "price": "$160",
+    "date": "NOVEMBER 25TH, 2017"
+  },
+  {
+    "image": "img/releases/AA1256-603.jpg",
+    "name": "AIR JORDAN XXXII “WIN LIKE ’96”",
+    "price": "DECEMBER 2ND, 2017",
+    "date": "$160"
+  },
+  {
+    "image": "img/releases/jordan-11-win-like-96.jpg",
+    "name": "AIR JORDAN 11 “WIN LIKE ’96”",
+    "price": "$220",
+    "date": "DECEMBER 9TH, 2017"
+  },
+  {
+    "image": "img/releases/881432-612.jpg",
+    "name": "AIR JORDAN 5 PREMIUM",
+    "price": "$400",
+    "date": "DECEMBER 14TH, 2017"
+  },
+  {
+    "image": "img/releases/414571-042.jpg",
+    "name": "AIR JORDAN 13",
+    "price": "$190",
+    "date": "DECEMBER 21ST, 2017"
+  }]
+}

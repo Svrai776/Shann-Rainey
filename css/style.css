@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}	
+
+header.{
+	background-color: blue;
+}
+
+header h1{
+	color: white;
+	background-color: black;
+}
+
+.blog,
+.aside{
+	vertical-align: top;
+	max-width: 100%;
+	max-height: 100%;
+	float: right;
+
+
+}
+
