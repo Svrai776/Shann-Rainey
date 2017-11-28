@@ -8,6 +8,7 @@ h3 .small-text {
     max-width: 255px;
 }
 
+
 .formField {
 	display: flex;
     justify-content: space-between;
@@ -18,6 +19,10 @@ h3 .small-text {
 .formField select, .formField button {
 	width: 100px;
 	margin: 0 0 0 20px;
+}
+
+.formField button {
+    padding: 8px 0 15px;
 }
 
 .submitContainer {
@@ -32,6 +37,24 @@ h3 .small-text {
 
 .infoBoxes p {
     color: black;
+}
+
+@media screen and (max-device-width: 767px) {
+    h3 .small-text {
+        font-size: 25px;
+        margin: 20px auto;
+    }
+    .formField {
+        font-size: 40px;
+    }
+    .infoBoxes p {
+        font-size: 28px;
+    }
+    .formField select, .formField button {
+        width: 500px;
+        margin: 0 0 0 20px;
+        font-size: 33px;
+    }
 }
 
 .porosityTest h6 {
@@ -66,4 +89,18 @@ h3 .small-text {
     background-color: white;
     color: black;
     width: 315px;
+}
+
+@media screen and (max-device-width: 767px) {
+    .infoBoxes, .porosityTest {
+        flex-direction: column;
+    }
+    .infoBox1,
+    .infoBox2,
+    .infoBox3,
+    .method {
+        width: unset;
+        font-size: 1.4em;
+        height: auto;
+    }
 }

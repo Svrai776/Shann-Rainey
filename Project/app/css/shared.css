@@ -18,13 +18,24 @@ button {
     cursor: pointer;
 }
 
-button.highlight {
-    background: gold;
+.buttonHighlight, .buttonSecondary {
     padding: 12px;
     font-size: 15px;
     margin: 9px;
     border: none;
     border-radius: 7px;
+    color: black;
+    font-weight: 500;
+}
+
+.buttonHighlight {
+    background: pink;
+    color: black;
+}
+
+.buttonSecondary {
+    background: black;
+    color: pink;
 }
 
 h3{
@@ -39,12 +50,16 @@ html {
 	background: whitesmoke;
 }
 
-header{
+header {
 	background-color: grey;
     background: rgba(54, 25, 25, .5);
     height: 50px;
     color: white;
     font-family: 'Cursive';
+}
+
+header a {
+    color: pink;
 }
 
 header{
@@ -123,6 +138,18 @@ img {
     height: 280px;
 }
 
+@media screen and (max-device-width: 767px) {
+    .container{
+        background: whitesmoke;
+    }
+    .content, .content .boxed-content {
+        align-items: unset;
+        font-size: 1.3em;
+        height: unset;
+        padding: 10px 20px;
+    }
+}
+
 footer {
 	background: black;
 	padding: 20px 0;
@@ -177,4 +204,16 @@ p{
 blockquote{
     margin-top: 47px;
 
+}
+.loading {
+    display: none;
+    position: absolute;
+    background: whitesmoke;
+    height: 100%;
+    top: 0px;
+    padding: 10% 25%;
+    font-size: 36px;
+}
+body.onLoading {
+    overflow-y: hidden;
 }

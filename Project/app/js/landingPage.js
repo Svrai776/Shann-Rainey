@@ -9,9 +9,16 @@ $(document).ready(function(){
 
 		var hairType = length + ', ' + color + ' and ' + texture;
 		$('.hairType').text(hairType);
-		$('.hairTypeResult').show();
-		$('.hairTypeForm').hide();
-		$('.hairTypeLink')[0].href += getLinkQuery(length, color, texture);
+
+		var query = getLinkQuery(length, color, texture);
+
+		$('.container').hide();
+		$('.loading').show();
+		$('body').addClass('onLoading');
+
+		setTimeout(function() {
+			window.location = 'myHairType.html' + query;
+		}, 1000);
 
 		return false;
 	});
